@@ -1,6 +1,6 @@
 # Image to Text
 
-**Image2Text** is a python wrapper to grab text from images and save as text files using [Google Tesseract Engine](https://github.com/tesseract-ocr/tesseract). Tesseract is an optical character recognition engine for various operating systems. It is free software, released under the Apache License, Version 2.0, and development has been sponsored by Google since 2006. In 2006 Tesseract was considered one of the most accurate open-source OCR engines then available.
+**image2Text** is a python wrapper to grab text from images and save as text files using [Google Tesseract Engine](https://github.com/tesseract-ocr/tesseract). Tesseract is an optical character recognition engine for various operating systems. It is free software, released under the Apache License, Version 2.0, and development has been sponsored by Google since 2006. In 2006 Tesseract was considered one of the most accurate open-source OCR engines then available.
 
 **Quick Links:**
 + [Usage](#usage)
@@ -11,7 +11,23 @@
 + [Sample Results](#sample-results)
     + [Sample Image](#sample-image)
     + [Text output](#text-output)
+### • If you're on windows:
 
+  **Step 1:** Download tesseract exe using : https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+  
+  **Step 2:** Type these commands in the .py file before running it.
+         
+    > ocr_path = r"--the path to the tesseract.exe present in tesseractOCR folder in program files in User--"
+          
+    > pyt.pytesseract.tesseract_cmd = ocr_path
+  
+  
+### • If you're using macOs and it gives you any errors regarding tesseract, please use Homebrew to download the library:
+  Link : https://brew.sh
+  
+  after installation, run
+  
+    > brew install tesseract
 
 # Usage
 ```shell
@@ -143,3 +159,6 @@ which is 1 followed by one googol of zeroes.
 
 
 ```
+Project By : Arshiya Sharma
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
