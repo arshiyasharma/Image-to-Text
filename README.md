@@ -159,6 +159,6 @@ which is 1 followed by one googol of zeroes.
 
 
 ```
-Project By : Arshiya Sharma
+**Arshiya Sharma**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
